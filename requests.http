@@ -1,0 +1,28 @@
+### Index
+GET http://localhost:3000/photos
+
+### Create
+POST http://localhost:3000/photos
+Content-Type: application/json
+
+{
+  "name": "test 3",
+  "width": 3,
+  "height": 4
+}
+
+### Show
+GET http://localhost:3000/photos/11
+
+### Update
+PATCH http://localhost:3000/photos/10
+Content-Type: application/json
+
+{
+  "name": "tested",
+  "width": 19,
+  "height": 23
+}
+
+### Delete
+DELETE http://localhost:3000/photos/4
